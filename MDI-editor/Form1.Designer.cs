@@ -229,6 +229,7 @@
             tileHorizontalToolStripMenuItem.Name = "tileHorizontalToolStripMenuItem";
             tileHorizontalToolStripMenuItem.Size = new Size(180, 22);
             tileHorizontalToolStripMenuItem.Text = "Tile Horizontal";
+            tileHorizontalToolStripMenuItem.Click += tileHorizontalToolStripMenuItem_Click;
             // 
             // tileVerticalToolStripMenuItem
             // 

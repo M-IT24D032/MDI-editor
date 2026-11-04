@@ -38,5 +38,10 @@
         {
             LayoutMdi(MdiLayout.Cascade);
         }
+
+        private void tileHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LayoutMdi(MdiLayout.TileHorizontal);
+        }
     }
 }
