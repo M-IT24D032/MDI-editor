@@ -243,6 +243,7 @@
             arrangeIconsToolStripMenuItem.Name = "arrangeIconsToolStripMenuItem";
             arrangeIconsToolStripMenuItem.Size = new Size(180, 22);
             arrangeIconsToolStripMenuItem.Text = "Arrange Icons";
+            arrangeIconsToolStripMenuItem.Click += arrangeIconsToolStripMenuItem_Click;
             // 
             // Form1
             // 

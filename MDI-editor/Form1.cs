@@ -48,5 +48,10 @@
         {
             LayoutMdi(MdiLayout.TileVertical);
         }
+
+        private void arrangeIconsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LayoutMdi(MdiLayout.ArrangeIcons);
+        }
     }
 }
