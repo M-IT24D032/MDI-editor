@@ -236,6 +236,7 @@
             tileVerticalToolStripMenuItem.Name = "tileVerticalToolStripMenuItem";
             tileVerticalToolStripMenuItem.Size = new Size(180, 22);
             tileVerticalToolStripMenuItem.Text = "Tile Vertical";
+            tileVerticalToolStripMenuItem.Click += tileVerticalToolStripMenuItem_Click;
             // 
             // arrangeIconsToolStripMenuItem
             // 

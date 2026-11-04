@@ -43,5 +43,10 @@
         {
             LayoutMdi(MdiLayout.TileHorizontal);
         }
+
+        private void tileVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LayoutMdi(MdiLayout.TileVertical);
+        }
     }
 }
